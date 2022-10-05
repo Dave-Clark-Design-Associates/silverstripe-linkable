@@ -1,10 +1,11 @@
-# SilverStripe Linkable
+# SilverStripe Linkable - DAVE CLARK FORK
 
-This module is no longer maintained. Please checkout the following excellent alternatives
 
-* [gorriecoe/silverstripe-link](https://github.com/gorriecoe/silverstripe-link)
-* [gorriecoe/silverstripe-linkfield](https://github.com/gorriecoe/silverstripe-linkfield)
-* [silverstripe-embed](https://github.com/gorriecoe/silverstripe-embed)
+This module is no longer maintained. Please use the following instead!
+
+* [gorriecoe/silverstripe-link DataObject](https://github.com/gorriecoe/silverstripe-link)
+* [gorriecoe/silverstripe-linkfield Form Field](https://github.com/gorriecoe/silverstripe-linkfield)
+* [silverstripe-embed embed work](https://github.com/gorriecoe/silverstripe-embed)
 
 ## Requirements
 
@@ -15,7 +16,7 @@ See 1.x branch/releases for SilverStripe 3.x support
 
 ## Maintainers
 
-* shea@livesource.co.nz
+* Dave Clark
 
 ## Description
 
@@ -24,7 +25,7 @@ This module contains a couple of handy FormFields / DataObjects for managing ext
 ## Installation with [Composer](https://getcomposer.org/)
 
 ```
-composer require "sheadawson/silverstripe-linkable"
+composer require "sheadawson/silverstripe-linkable:dev-dc_main"
 ```
 
 ## Link / LinkField
